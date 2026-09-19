@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1118"/>
+      <stop offset="0.55" stop-color="#0b141d"/>
+      <stop offset="1" stop-color="#0d1824"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#38c7b5" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#38c7b5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- lanes + nodes -->
+  <g stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M760 205 H 1080" stroke="#38c7b5" opacity="0.5"/>
+    <path d="M760 205 H 1080" stroke="#4ade80" stroke-width="5" stroke-dasharray="10 18" opacity="0.8"/>
+    <path d="M760 355 H 1080" stroke="#38c7b5" opacity="0.5"/>
+    <path d="M760 355 H 1080" stroke="#f5b84b" stroke-width="5" stroke-dasharray="10 18" opacity="0.8"/>
+    <path d="M760 505 H 1080" stroke="#38c7b5" opacity="0.5"/>
+    <path d="M760 505 H 1080" stroke="#e5484d" stroke-width="5" stroke-dasharray="10 18" opacity="0.8"/>
+  </g>
+  <rect x="728" y="177" width="140" height="56" rx="8" fill="#16222e" stroke="#2c4154"/>
+  <text x="798" y="205" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16" fill="#e8eef4">CHILLER-01</text>
+  <text x="798" y="225" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#5d7184">health 98</text>
+  <rect x="728" y="327" width="140" height="56" rx="8" fill="#16222e" stroke="#2c4154"/>
+  <text x="798" y="355" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16" fill="#e8eef4">CHILLER-02</text>
+  <text x="798" y="375" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#5d7184">health 84</text>
+  <rect x="728" y="477" width="140" height="56" rx="8" fill="#16222e" stroke="#2c4154"/>
+  <text x="798" y="505" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16" fill="#e8eef4">CHILLER-03</text>
+  <text x="798" y="525" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#5d7184">health 91</text>
+  <rect x="1016" y="327" width="104" height="56" rx="8" fill="#101a24" stroke="#223444"/>
+  <text x="1068" y="361" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="13" fill="#9fb0c1">BUILDING</text>
+
+  <!-- type block -->
+  <text x="80" y="110" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600" letter-spacing="3" fill="#38c7b5">YUKTHI 2026 — INTELLIGENT ENERGY &amp; EQUIPMENT MONITORING</text>
+  <text x="76" y="262" font-family="ui-sans-serif, system-ui, sans-serif" font-size="102" font-weight="700" fill="#e8eef4">Therma<tspan fill="#38c7b5">Sight</tspan></text>
+  <text x="80" y="318" font-family="Menlo, Consolas, monospace" font-size="22" fill="#9fb0c1">contextual anomaly detection for chiller fleets</text>
+  <rect x="80" y="352" width="480" height="58" rx="8" fill="#38c7b5"/>
+  <text x="320" y="389" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#04251f">Analyse the demonstration dataset</text>
+  <text x="80" y="448" font-family="Menlo, Consolas, monospace" font-size="15" fill="#5d7184">unsupervised ML · evidence per anomaly · recommended next steps</text>
+
+  <line x1="0" y1="586" x2="1200" y2="586" stroke="#223444"/>
+  <text x="80" y="610" font-family="Menlo, Consolas, monospace" font-size="13" fill="#5d7184">thermasight · built for the YUKTHI 2026 challenge</text>
+</svg>

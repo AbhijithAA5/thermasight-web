@@ -1,0 +1,9 @@
+/* ThermaSight — Tailwind v4 entry.
+ * The full design system (tokens, components, animations) lives in
+ * themesight.css; this file only wires Tailwind + the animation helper.
+ */
+@import "tailwindcss" source(none);
+@source "../src";
+
+@import "./themesight.css";
+@import "tw-animate-css";
